@@ -1,0 +1,78 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spawner",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"enchantment": [
+									{
+										"id": "minecraft:silk_touch"
+									}
+								]
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit: {id: \"spawner\", from: \"boomber:mineable_spawner\", author: [\"boomber\"]}}"
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "block_entity",
+							"ops": [
+								{
+									"source": "SpawnPotentials",
+									"target": "ucit.mineable_spawner.SpawnPotentials",
+									"op": "replace"
+								},
+								{
+									"source": "SpawnData",
+									"target": "ucit.mineable_spawner.SpawnData",
+									"op": "replace"
+								},
+								{
+									"source": "SpawnCount",
+									"target": "ucit.mineable_spawner.SpawnCount",
+									"op": "replace"
+								},
+								{
+									"source": "SpawnRange",
+									"target": "ucit.mineable_spawner.SpawnRange",
+									"op": "replace"
+								},
+								{
+									"source": "MinSpawnDelay",
+									"target": "ucit.mineable_spawner.MinSpawnDelay",
+									"op": "replace"
+								},
+								{
+									"source": "MaxSpawnDelay",
+									"target": "ucit.mineable_spawner.MaxSpawnDelay",
+									"op": "replace"
+								},
+								{
+									"source": "MaxNearbyEntities",
+									"target": "ucit.mineable_spawner.MaxNearbyEntities",
+									"op": "replace"
+								},
+								{
+									"source": "RequiredPlayerRange",
+									"target": "ucit.mineable_spawner.RequiredPlayerRange",
+									"op": "replace"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
