@@ -30,42 +30,42 @@
 							"ops": [
 								{
 									"source": "SpawnPotentials",
-									"target": "ucit.mineable_spawner.SpawnPotentials",
+									"target": "ctc.mineable_spawner.SpawnPotentials",
 									"op": "replace"
 								},
 								{
 									"source": "SpawnData",
-									"target": "ucit.mineable_spawner.SpawnData",
+									"target": "ctc.mineable_spawner.SpawnData",
 									"op": "replace"
 								},
 								{
 									"source": "SpawnCount",
-									"target": "ucit.mineable_spawner.SpawnCount",
+									"target": "ctc.mineable_spawner.SpawnCount",
 									"op": "replace"
 								},
 								{
 									"source": "SpawnRange",
-									"target": "ucit.mineable_spawner.SpawnRange",
+									"target": "ctc.mineable_spawner.SpawnRange",
 									"op": "replace"
 								},
 								{
 									"source": "MinSpawnDelay",
-									"target": "ucit.mineable_spawner.MinSpawnDelay",
+									"target": "ctc.mineable_spawner.MinSpawnDelay",
 									"op": "replace"
 								},
 								{
 									"source": "MaxSpawnDelay",
-									"target": "ucit.mineable_spawner.MaxSpawnDelay",
+									"target": "ctc.mineable_spawner.MaxSpawnDelay",
 									"op": "replace"
 								},
 								{
 									"source": "MaxNearbyEntities",
-									"target": "ucit.mineable_spawner.MaxNearbyEntities",
+									"target": "ctc.mineable_spawner.MaxNearbyEntities",
 									"op": "replace"
 								},
 								{
 									"source": "RequiredPlayerRange",
-									"target": "ucit.mineable_spawner.RequiredPlayerRange",
+									"target": "ctc.mineable_spawner.RequiredPlayerRange",
 									"op": "replace"
 								}
 							]

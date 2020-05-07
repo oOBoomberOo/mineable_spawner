@@ -4,7 +4,7 @@
 			"trigger": "minecraft:placed_block",
 			"conditions": {
 				"item": {
-					"nbt": "{ucit: {id: \"spawner\", from: \"boomber:mineable_spawner\"}}"
+					"nbt": "{ctc: {id: \"spawner\", from: \"boomber:mineable_spawner\"}}"
 				}
 			}
 		}
