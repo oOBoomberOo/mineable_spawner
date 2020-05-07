@@ -11,9 +11,9 @@
 						{
 							"condition": "minecraft:match_tool",
 							"predicate": {
-								"enchantment": [
+								"enchantments": [
 									{
-										"id": "minecraft:silk_touch"
+										"enchantment": "minecraft:silk_touch"
 									}
 								]
 							}
@@ -22,7 +22,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {id: \"spawner\", from: \"boomber:mineable_spawner\", author: [\"boomber\"]}}"
+							"tag": "{ctc: {id: \"spawner\", from: \"boomber:mineable_spawner\", traits: [\"block\"]}}"
 						},
 						{
 							"function": "minecraft:copy_nbt",
